@@ -1,0 +1,22 @@
+
+custom:
+  defaultStage: dev
+  accountId: 265343004596
+
+service: slackbot-arthur # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  region: eu-west-1
+  stage: dev
+  memorySize: 128 # MB
+  timeout: 2 # slack has a timeout of 3 sec anyway
+
+functions:
+  slackbot_arthur:
+    handler: handler.hello
+    events:
+      - http:
+          path: slackbot-arthur
+          method: post
