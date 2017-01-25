@@ -1,9 +1,14 @@
 'use strict';
 
 module.exports.hello = (event, context, callback) => {
+  var body = {
+    "response_type": "in_channel",
+    "text": "COUILLÈRE",
+  };
+
   const response = {
     statusCode: 200,
-    body: "COUILLÈRE",
+    body: body,
   };
 
   callback(null, response);
