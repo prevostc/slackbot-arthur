@@ -5,4 +5,6 @@ npm install
 npm run deploy
 
 # local test
-todo
+npm run offline
+
+Use postman and call the url : http://localhost:3000/slackbot-arthur
