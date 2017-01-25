@@ -4,13 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "./node_modules/.bin/serverless deploy",
+    "test": "./node_modules/.bin/eslint ./src && ./node_modules/.bin/mocha $(find src -name '*.test.js')",
+    "test.unit": "./node_modules/.bin/mocha $(find src -name '*.test.js')",
+    "test.unit.watch": "./node_modules/.bin/mocha $(find src -name '*.test.js') --watch",
+    "test.lint": "./node_modules/.bin/eslint ./src",
+    "test.lint.fix": "./node_modules/.bin/eslint ./src --fix",
+    "deploy": "npm run test && ./node_modules/.bin/serverless deploy",
     "offline": "./node_modules/.bin/serverless offline"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-plugin-mocha": "^4.8.0",
+    "mocha": "^3.2.0",
     "serverless": "^1.5",
-    "serverless-offline": "^3.8.3"
+    "serverless-offline": "^3.8.3",
+    "sinon": "^1.17.7"
   },
   "author": "",
   "license": "ISC"

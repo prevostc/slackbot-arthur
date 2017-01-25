@@ -15,7 +15,7 @@ provider:
 
 functions:
   slackbot_arthur:
-    handler: handler.hello
+    handler: serverless_handlers.hello
     events:
       - http:
           path: slackbot-arthur

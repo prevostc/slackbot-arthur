@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "mocha"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "impliedStrict": true
+  },
+  "globals": {
+    "module": true,
+    "require": true,
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "process": true,
+    "console": true,
+    "Buffer": true,
+    "__dirname": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+  }
+}
