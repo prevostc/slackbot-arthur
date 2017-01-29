@@ -33,6 +33,12 @@ functions:
       - http:
           path: slackbot-arthur
           method: post
+  slackbot_parrot:
+    handler: serverless_handlers.parrot
+    events:
+      - http:
+          path: slackbot-parrot
+          method: post
 
 plugins:
   - serverless-offline

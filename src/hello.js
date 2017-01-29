@@ -1,6 +1,5 @@
-const slack = require('./helper/slack');
 
-module.exports = slack.serverlessHandler(() => {
+module.exports = () => {
     return "COUILLÈRE";
-});
+};
 

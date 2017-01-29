@@ -6,8 +6,7 @@ npm run deploy
 
 # local test
 npm run offline
-
-Use postman and call the url : http://localhost:3000/slackbot-arthur
+curl -XPOST -d 'text=blabla' http://localhost:3000/slackbot-arthur
 
 # unit tests
 npm test                 # all unit tests
