@@ -1,14 +1,6 @@
-const send = require('./helper/response');
+const slack = require('./helper/slack');
 
-module.exports = (event, context, callback) => {
-    try {
-        var body = {
-            "response_type": "in_channel",
-            "text": "COUILLÈRE",
-        };
+module.exports = slack.serverlessHandler(() => {
+    return "COUILLÈRE";
+});
 
-        send.ok(callback, body);
-    } catch (e) {
-        send.ex(callback, e);
-    }
-};
