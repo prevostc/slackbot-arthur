@@ -1,6 +1,5 @@
 const sinon = require('sinon');
-const chai = require('chai');
-const expect = chai.expect;
+const expect = require('chai').expect;
 const hello = require('./hello');
 
 describe('Hello world handler', () => {

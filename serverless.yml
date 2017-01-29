@@ -5,6 +5,19 @@ custom:
 
 service: slackbot-arthur # NOTE: update this with your service name
 
+package:
+  individually: false
+  exclude:
+    - README.md
+    - package.json
+    - .eslintrc.json
+    - .npmignore
+    - .travis.yml
+    - .serverless
+    - .idea/**
+    - node_modules/**
+    - src/**/*.test.js
+
 provider:
   name: aws
   runtime: nodejs4.3
