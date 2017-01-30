@@ -6,7 +6,7 @@ const phrases = [
     'OWDY!',
     'Welcome aboard bro @_@',
     'Aloha !',
-    'http://images.google.fr/url?sa=t&rct=j&q=&source=imgres&cd=1&ved=0ahUKEwjAg5Li_OnRAhWLWBQKHT9DB4kQ5hMIBTAA&url=http%3A%2F%2Fimages.memes.com%2Fmeme%2F619796&usg=AFQjCNHzEdzLyekpoo82N5jo-23_PgX4mg&sig2=XnS4nw3lkGFDDKfZOWR5Lw',
+    'http://images.memes.com/meme/880169',
     'On est déjà lundi ?',
     'Bonjour, cafés et croissants dans la cuisine',
     'kikoo',
