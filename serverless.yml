@@ -39,6 +39,12 @@ functions:
       - http:
           path: slackbot-parrot
           method: post
+  slackbot_bonjour:
+    handler: serverless_handlers.bonjour
+    events:
+      - http:
+          path: slackbot-bonjour
+          method: post
 
 plugins:
   - serverless-offline
