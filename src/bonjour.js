@@ -15,6 +15,7 @@ const phrases = [
     '++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>----. >+++++++++++. -. ----. +++++. ++++++. ---.',
     'Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook. Ook? Ook. Ook. Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook? Ook. Ook? Ook. Ook? Ook. Ook! Ook! Ook? Ook! Ook. Ook? Ook. Ook? Ook. Ook? Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook.  Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook.  Ook! Ook! Ook! Ook.  Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook.  Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook.  Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook.  Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook.  Ook? Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook! Ook.  Ook. Ook. Ook! Ook.',
     'Au revoir Simone.',
+    'Tagazok a toi mon frère !',
 ];
 
 module.exports = () => phrases[Math.floor(Math.random() * phrases.length)];
